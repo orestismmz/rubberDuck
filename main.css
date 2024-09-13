@@ -1,0 +1,66 @@
+nav {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+img {
+  width: 5rem;
+}
+
+main {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 25rem;
+}
+li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1.1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  width: 15rem;
+}
+
+.error-message {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.invalid {
+  border: 1px solid red;
+}
